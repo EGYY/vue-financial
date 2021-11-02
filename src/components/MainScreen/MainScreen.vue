@@ -32,7 +32,8 @@
         width: 100%;
         max-width: 750px;
         position: absolute;
-        right: -100px;
+        right: 0;
+        z-index: -1;
     }
 
     @media screen and (max-width: 1200px){

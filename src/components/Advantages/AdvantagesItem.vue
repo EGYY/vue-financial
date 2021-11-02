@@ -1,6 +1,6 @@
 <template>
     <div class="advantages-item">
-        <div class="icon"><img src="../../assets/icon.png" alt=""></div>
+        <div class="icon"><img :src="image" alt=""></div>
         <div class="title">{{title}}</div>
         <div class="caption">{{caption}}</div>
     </div>
@@ -11,6 +11,7 @@
         props: {
             title: String,
             caption: String,
+            image: String,
         }
     }
 </script>
@@ -20,7 +21,7 @@
         /* height: 354px; */
         /*width: 100%;*/
         /*max-width: 320px;*/
-        box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+        box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.5);
         border-radius: 20px;
         padding: 35px;
         background-color: #fff;
@@ -30,6 +31,11 @@
         width: 90px;
         height: 90px;
         margin-bottom: 25px;
+    }
+    .advantages-item > .icon > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
     .advantages-item > .title {
         font-weight: 700;
