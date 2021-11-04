@@ -1,9 +1,9 @@
 <template>
-    <div class="footer">
+    <footer class="footer">
         <FooterMap/>
         <FooterContent/>
         <div class="dotes-footer"><img src="../../assets/dotes-wight.png" alt=""></div>
-    </div>
+    </footer>
 </template>
 
 <script>

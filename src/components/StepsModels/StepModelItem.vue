@@ -79,6 +79,7 @@ export default {
 @media screen and (max-width: 1052px) {
   .step-content {
     text-align: center;
+    margin-left: 0;
   }
   .line.left {
     margin: 25px auto;

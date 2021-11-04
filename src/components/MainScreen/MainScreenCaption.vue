@@ -45,5 +45,11 @@
         background-color: #458FF6;
         width: fit-content;
         cursor: pointer;
+        transition: all .2s ease-in-out;
+    }
+
+    .caption-btn:hover {
+        background-color: #3776ce;
+        transform: scale(1.01)
     }
 </style>

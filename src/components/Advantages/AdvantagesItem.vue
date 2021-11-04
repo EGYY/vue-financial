@@ -26,6 +26,11 @@
         padding: 35px;
         background-color: #fff;
         flex-grow: 1;
+        transition: all .2s ease-in-out;
+        cursor: pointer;
+    }
+    .advantages-item:hover {
+        transform: scale(1.05)
     }
     .advantages-item > .icon {
         width: 90px;

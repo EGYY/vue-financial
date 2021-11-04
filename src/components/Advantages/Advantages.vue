@@ -1,49 +1,51 @@
 <template>
-  <div class="advantages">
-    <div class="main-title">Свойства и выгоды</div>
-    <div class="line"></div>
-    <div class="main-caption">
-      Закажите у нас финансовую модель своего бизнеса и вы узнаете:
-    </div>
-    <div class="frame">
-      <img src="../../assets/Frame.png" alt="" />
-    </div>
-    <div class="dotes"><img src="../../assets/dotes.png" alt="" /></div>
-    <div class="advantages-container">
-      <AdvantagesItem
-        :image="require(`@/assets/money-control.png`)"
-        :title="`Контроль`"
-        :caption="`Как получить контроль над 100% своих расходов`"
-      />
-      <AdvantagesItem
-        :image="require(`@/assets/emploers.png`)"
-        :title="`Эффективность`"
-        :caption="`Как увеличить эффективность сотрудников`"
-      />
-      <AdvantagesItem
-        :image="require(`@/assets/effective.png`)"
-        :title="`Развитие`"
-        :caption="`Как будет развиваться ваш бизнеса на 3 года вперед`"
-      />
-      <AdvantagesItem
-        :image="require(`@/assets/price.png`)"
-        :title="`Стоимость`"
-        :caption="`Сколько может стоить весь ваш бизнес`"
-      />
-      <AdvantagesItem
-        :image="require(`@/assets/dohod.png`)"
-        :title="`Доход`"
-        :caption="
-          `Точную сумму, сколько можно забирать себе в карман, без последствий для бизнеса`
-        "
-      />
-      <AdvantagesItem
-        :image="require(`@/assets/pribyl.png`)"
-        :title="`Прибыль`"
-        :caption="`Прибыльность нового направления бизнеса`"
-      />
-    </div>
-    <div class="btn-outlined">Бесплатная консультация</div>
+  <div class="container">
+    <section class="advantages" id="advantages">
+      <div class="main-title">Свойства и выгоды</div>
+      <div class="line"></div>
+      <div class="main-caption">
+        Закажите у нас финансовую модель своего бизнеса и вы узнаете:
+      </div>
+      <div class="frame">
+        <img src="../../assets/Frame.png" alt="" />
+      </div>
+      <div class="dotes"><img src="../../assets/dotes.png" alt="" /></div>
+      <div class="advantages-container">
+        <AdvantagesItem
+          :image="require(`@/assets/money-control.png`)"
+          :title="`Контроль`"
+          :caption="`Как получить контроль над 100% своих расходов`"
+        />
+        <AdvantagesItem
+          :image="require(`@/assets/emploers.png`)"
+          :title="`Эффективность`"
+          :caption="`Как увеличить эффективность сотрудников`"
+        />
+        <AdvantagesItem
+          :image="require(`@/assets/effective.png`)"
+          :title="`Развитие`"
+          :caption="`Как будет развиваться ваш бизнеса на 3 года вперед`"
+        />
+        <AdvantagesItem
+          :image="require(`@/assets/price.png`)"
+          :title="`Стоимость`"
+          :caption="`Сколько может стоить весь ваш бизнес`"
+        />
+        <AdvantagesItem
+          :image="require(`@/assets/dohod.png`)"
+          :title="`Доход`"
+          :caption="
+            `Точную сумму, сколько можно забирать себе в карман, без последствий для бизнеса`
+          "
+        />
+        <AdvantagesItem
+          :image="require(`@/assets/pribyl.png`)"
+          :title="`Прибыль`"
+          :caption="`Прибыльность нового направления бизнеса`"
+        />
+      </div>
+      <div class="btn-outlined">Бесплатная консультация</div>
+    </section>
   </div>
 </template>
 
@@ -65,7 +67,7 @@ export default {
   margin: 25px auto;
 }
 .advantages {
-  margin: 250px 0;
+  padding: 250px 0;
   position: relative;
 }
 
@@ -74,7 +76,11 @@ export default {
   z-index: -1;
   top: -50px;
   width: 100%;
-  margin-left: calc(50% - 50vw);
+  margin-left: calc(50% - 54vw);
+}
+
+.advantages > .frame > img {
+  width: 100%;
 }
 
 .btn-outlined {
@@ -89,6 +95,14 @@ export default {
   width: fit-content;
   padding: 10px 25px;
   margin: 50px auto;
+  transition: all .2s ease-in-out;
+
+}
+
+.btn-outlined:hover {
+  transform: scale(1.01);
+  background-color: #458FF6;
+  color: #fff;
 }
 
 .dotes {
@@ -118,5 +132,11 @@ export default {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .advantages {
+    padding: 150px 0;
+  }
 }
 </style>
