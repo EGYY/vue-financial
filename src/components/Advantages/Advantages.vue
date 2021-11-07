@@ -44,17 +44,43 @@
           :caption="`Прибыльность нового направления бизнеса`"
         />
       </div>
-      <div class="btn-outlined">Бесплатная консультация</div>
+      <div class="btn-outlined" @click="showModal">Бесплатная консультация</div>
     </section>
+    <Modal
+      :visible="visible"
+      :title="`Бесплатная консультация`"
+      :handleCancel="handleCancel"
+      :handleOk="handleOk"
+    />
   </div>
 </template>
 
 <script>
 import AdvantagesItem from "./AdvantagesItem";
-
+import Modal from "../FeedbackModal/Modal.vue";
 export default {
   components: {
     AdvantagesItem,
+    Modal,
+  },
+  data() {
+    return {
+      visible: false,
+    };
+  },
+  methods: {
+    handleOk() {
+      this.visible = false;
+      document.body.classList.remove("modal-open");
+    },
+    handleCancel() {
+      this.visible = false;
+      document.body.classList.remove("modal-open");
+    },
+    showModal() {
+      this.visible = true;
+      document.body.classList.add("modal-open");
+    },
   },
 };
 </script>
@@ -67,7 +93,7 @@ export default {
   margin: 25px auto;
 }
 .advantages {
-  padding: 250px 0;
+  padding: 250px 0 50px 0;
   position: relative;
 }
 
@@ -95,13 +121,12 @@ export default {
   width: fit-content;
   padding: 10px 25px;
   margin: 50px auto;
-  transition: all .2s ease-in-out;
-
+  transition: all 0.2s ease-in-out;
 }
 
 .btn-outlined:hover {
   transform: scale(1.01);
-  background-color: #458FF6;
+  background-color: #458ff6;
   color: #fff;
 }
 
@@ -138,5 +163,16 @@ export default {
   .advantages {
     padding: 150px 0;
   }
+}
+@media screen and (max-width: 490px) {
+.advantages > .main-title {
+  font-size: 25px;
+}
+.advantages > .main-caption {
+  font-size: 15px;
+}
+.btn-outlined {
+  font-size: 15px;
+}
 }
 </style>

@@ -53,7 +53,15 @@
         color: #7D7987;
         font-size: 16px;
         font-weight: 300;
-        width: 266px;
+        width: fit-content;
     }
+@media screen and (max-width: 490px) {
+ .advantages-item > .title {
+     font-size: 20px;
+  }
 
+    .advantages-item > .caption {
+        font-size: 14px;
+    }
+}
 </style>

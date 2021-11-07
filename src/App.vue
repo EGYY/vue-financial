@@ -41,6 +41,10 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 .container {
   width: calc(100% - 30px);
   max-width: 1200px;

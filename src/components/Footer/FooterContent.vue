@@ -21,11 +21,11 @@
             Телефон: <a href="tel:79199001971">+7(919)-900-19-71</a>
           </div>
           <div class="footer-contacts_list__item">
-            Email: <a href="mailto:test@test.test">test@test.test</a>
+            Email: <a href="mailto:support@finmodel.site">support@finmodel.site</a>
           </div>
 
           <div class="footer-contacts_list__item row">
-            <a href="#">
+            <a href="https://api.whatsapp.com/send?phone=79199001971">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -37,7 +37,7 @@
                 />
               </svg>
             </a>
-            <a href="#">
+            <a href="https://telegram.me/SerRepin">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -51,7 +51,7 @@
                 />
               </svg>
             </a>
-            <a href="#">
+            <a href="viber://chat?number=79199001971">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -77,6 +77,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  z-index: 1;
 }
 .footer-content {
   color: #ffffff;
@@ -143,11 +144,26 @@
 }
 
 @media screen and (max-width: 680px) {
-    .footer-contacts{
-        margin-top: 20px;
-    }
+  .footer-contacts {
+    margin-top: 20px;
+  }
   .container.row {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .logo {
+    font-size: 20px;
+  }
+
+  .logo-descr,
+  .protector {
+    font-size: 15px;
+  }
+
+  .footer-contacts {
+    font-size: 14px;
   }
 }
 </style>

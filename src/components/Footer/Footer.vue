@@ -28,5 +28,6 @@
         left: 0;
         bottom: 0;
         width: 115px;
+        z-index: 0;
     }
 </style>

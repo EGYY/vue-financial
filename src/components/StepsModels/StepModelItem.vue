@@ -90,4 +90,13 @@ export default {
     margin-bottom: 10px;
   }
 }
+
+@media screen and (max-width: 490px) {
+  .step-title {
+    font-size: 24px;
+  }
+  .step-caption {
+    font-size: 15px;
+  }
+}
 </style>

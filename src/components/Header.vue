@@ -99,7 +99,7 @@ header {
   width: 100%;
   background: #fff;
   height: 90px;
-  z-index: 1;
+  z-index: 3;
   box-shadow: 10px 40px 50px rgb(229 233 246 / 50%);
   border-radius: 0 0 20px 20px;
 }
@@ -132,6 +132,7 @@ header {
 .menu-naviagtion__item > a {
   color: rgba(31, 21, 52, 0.5);
   text-decoration: none;
+  font-size: 16px;
 }
 
 .menu-naviagtion__item:hover {
@@ -169,6 +170,12 @@ header {
   }
   .menu-naviagation {
     display: none;
+  }
+}
+
+@media screen and (max-width: 490px) { 
+  .logo {
+    font-size: 20px;
   }
 }
 </style>
