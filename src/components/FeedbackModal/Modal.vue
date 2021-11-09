@@ -76,7 +76,7 @@ export default {
     async sendDataToServer(body) {
       this.loading = true;
       try {
-        const url = `https://cors-anywhere.herokuapp.com/https://finmodel.site:8811/notifications/question/`;
+        const url = `https://finmodel.site:8811/notifications/question/`;
         const formData  = new FormData();
 
         for(const name in body) {

@@ -36,7 +36,7 @@
         <input type="email" name="email" placeholder="Укажите ваш email" />
         <p class="caption">
           Нажимая на кнопку, вы даете согласие на обработку своих персональных
-          данных и соглашаетесь с Пользовательским соглашением
+          данных и соглашаетесь с <a href="/politics" target="_blank" style="color: #000">Пользовательским соглашением</a>
         </p>
         <button type="submit">Получить</button>
       </form>

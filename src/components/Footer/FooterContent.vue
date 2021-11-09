@@ -7,6 +7,9 @@
           Построение финансовых моделей для малого и среднего бизнеса по всей
           России
         </div>
+        <div style="margin-top: 10px;">
+          <a style="color: #fff;" href="/politics">Политика конфиденциальности</a>
+        </div>
         <div class="protector">
           ©Business & Digits 2021. Все права защищены
         </div>

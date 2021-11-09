@@ -2,7 +2,7 @@
   <header>
     <div class="container">
       <div class="header">
-        <div class="logo">Business <span>&</span> Digits</div>
+        <a href='/' class="logo">Business <span>&</span> Digits</a>
         <div class="mobile-menu">
           <svg
             @click="toogleMenu"
@@ -113,6 +113,8 @@ header {
 .logo {
   font-weight: bold;
   font-size: 24px;
+  color: #000;
+  text-decoration: none;
 }
 
 .logo > span {
