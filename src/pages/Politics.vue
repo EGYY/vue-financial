@@ -457,4 +457,17 @@ export default {
 .politics {
   padding: 100px 0;
 }
+
+@media screen and (max-width: 400px) {
+    .politics > h1 {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+     .politicts-content > p {
+        overflow: hidden;
+        text-overflow: ellipsis;
+     }
+}
 </style>
