@@ -60,7 +60,7 @@ export default {
     async sendDataToServer(body) {
       this.loading = true;
       try {
-        const url = `https://cors-anywhere.herokuapp.com/https://finmodel.site:8811/notifications/send_schedule/`;
+        const url = `https://finmodel.site:8811/notifications/send_schedule/`;
         const formData = new FormData();
 
         for (const name in body) {
@@ -223,6 +223,8 @@ button:hover {
   width: 100%;
 }
   .calendar-container > img {
+    width: 100%;
+    object-fit: cover;
     height: 200px;
   }
 }

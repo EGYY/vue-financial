@@ -161,7 +161,7 @@ export default {
 
 @media screen and (max-width: 768px) {
   .advantages {
-    padding: 150px 0;
+    padding: 150px 0 50px 0;
   }
 }
 @media screen and (max-width: 490px) {

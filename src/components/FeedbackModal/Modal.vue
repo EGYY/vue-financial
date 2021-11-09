@@ -211,6 +211,7 @@ button:hover {
   top: 0;
   width: 4.5em;
   cursor: pointer;
+  z-index: 2;
 }
 .details-modal .details-modal-close svg {
   display: block;
@@ -221,6 +222,7 @@ button:hover {
   pointer-events: all;
   position: relative;
   width: fit-content;
+  z-index: 1;
 }
 .details-modal .details-modal-title h1 {
   font-size: 1.25rem;
@@ -245,5 +247,16 @@ button:hover {
   left: 0;
   top: 0;
   z-index: 4;
+}
+
+@media screen and (max-width: 768px) {
+  form > input {
+    padding: 10px;
+    font-size: 14px;
+  }
+  button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
 }
 </style>

@@ -15,7 +15,7 @@
         <div class="footer-title">Контакты</div>
         <div class="footer-contacts_list">
           <div class="footer-contacts_list__item">
-            Адрес: г.Ижевск, ул. Молодежная, д.111
+            Адрес: УР, г. Ижевск, ул. 10 лет Октября, 80, офис 614
           </div>
           <div class="footer-contacts_list__item">
             Телефон: <a href="tel:79199001971">+7(919)-900-19-71</a>

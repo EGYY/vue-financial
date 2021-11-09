@@ -42,7 +42,7 @@ export default {
 
 <style>
 .projects {
-  padding: 150px 0;
+  padding: 100px 0;
 }
 .projects-container {
   margin-top: 50px;
