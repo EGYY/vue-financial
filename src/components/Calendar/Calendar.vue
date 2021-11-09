@@ -123,7 +123,7 @@ export default {
 .main-caption {
   font-weight: 300;
   font-size: 18px;
-  color: #7d7987;
+  color: #625f69;
 }
 .calendar-container {
   display: flex;
@@ -134,7 +134,7 @@ export default {
 
 .caption {
   font-size: 13px;
-  color: rgb(44 62 80 / 69%);
+  color: #625f69;
 }
 
 .main-title {

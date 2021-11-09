@@ -41,7 +41,7 @@ export default {
 
 @media screen and (max-width: 1200px) {
   .main-screen-img {
-    opacity: 0.2;
+    opacity: 0.1;
   }
 }
 @media screen and (max-width: 490px) {

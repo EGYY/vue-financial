@@ -146,7 +146,7 @@ export default {
 .advantages > .main-caption {
   font-weight: 300;
   font-size: 18px;
-  color: #7d7987;
+  color: #625f69;
 }
 .advantages > .main-title,
 .main-caption {

@@ -64,14 +64,14 @@ export default {
 }
 .project-caption {
     font-size: 16px;
-    color: #7d7987;
+    color: #625f69;
     font-weight: 300;
     margin-bottom: 30px;
  
 }
 .project-caption-all {
     font-size: 16px;
-    color: #7d7987;
+    color: #625f69;
     font-weight: 300;
     margin-bottom: 30px;
     display: -webkit-box;

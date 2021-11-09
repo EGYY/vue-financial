@@ -59,7 +59,7 @@ export default {
 }
 
 .step-caption {
-  color: #7d7987;
+  color: #625f69;
   font-weight: 300;
   font-size: 18px;
 }

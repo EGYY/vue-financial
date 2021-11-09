@@ -50,7 +50,7 @@ export default {
 }
 
 .advantages-item > .caption {
-  color: #7d7987;
+  color: #625f69;
   font-size: 16px;
   font-weight: 300;
   width: 100%;

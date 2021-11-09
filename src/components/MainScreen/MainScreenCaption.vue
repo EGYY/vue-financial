@@ -63,9 +63,9 @@ export default {
 }
 
 .caption-subtitle {
-  color: #7d7987;
+  color: #625f69;
   font-size: 21px;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 25px;
 }
 
@@ -89,12 +89,12 @@ export default {
   transform: scale(1.01);
 }
 @media screen and (max-width: 490px) {
-  .caption-title{ 
+  .caption-title {
     font-size: 24px;
   }
-  .caption-subtitle, .caption-btn {
+  .caption-subtitle,
+  .caption-btn {
     font-size: 15px;
   }
-
 }
 </style>
