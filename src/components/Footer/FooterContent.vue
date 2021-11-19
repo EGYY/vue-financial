@@ -21,14 +21,14 @@
             Адрес: УР, г. Ижевск, ул. 10 лет Октября, 80, офис 614
           </div>
           <div class="footer-contacts_list__item">
-            Телефон: <a href="tel:79199001971">+7(919)-900-19-71</a>
+            Телефон: <a href="tel:79955414990">+7(995)541-49-90</a>
           </div>
           <div class="footer-contacts_list__item">
             Email: <a href="mailto:support@finmodel.site">support@finmodel.site</a>
           </div>
 
           <div class="footer-contacts_list__item row">
-            <a href="https://api.whatsapp.com/send?phone=79199001971">
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=79955414990">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -40,7 +40,7 @@
                 />
               </svg>
             </a>
-            <a href="https://telegram.me/SerRepin">
+            <a target="_blank" href="https://telegram.me/SerRepin">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -54,7 +54,7 @@
                 />
               </svg>
             </a>
-            <a href="viber://chat?number=79199001971">
+            <a target="_blank" href="viber://chat?number=79199096446">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
