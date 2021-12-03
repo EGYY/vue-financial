@@ -29,6 +29,13 @@ export default {
     Projects,
     Footer,
   },
+  // head: {
+  //   script: [
+  //     {
+  //       type: 'text/javascript', src: './metrics/ymetrics.js'
+  //     }
+  //   ]
+  // }
 };
 </script>
 
